@@ -37,9 +37,6 @@ export const Ticker = (props) => {
         
         channelSubscribe()
         
-        return () => {
-            handleSocketDisconnect()
-        }
       }, [props.selected_pair])
 
 
