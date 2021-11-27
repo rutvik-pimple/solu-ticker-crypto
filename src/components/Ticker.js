@@ -127,7 +127,7 @@ export const Ticker = (props) => {
                 <div className="dc3">
                     <div className="dd1 ddr">{props.tickerData.LastPrice ? Math.abs(props.tickerData.LastPrice.toFixed(2)): (isSocketConnected ? "loading.." : "Not Connected")}</div>
                     <div className="dd2 ddr" style={(props.tickerData.DailyChange<0) ? redStyle : greenStyle}>
-                        {Math.abs(props.tickerData.DailyChange?.toFixed(2))}{(props.tickerData.DailyChange<0)?<i class="fa fa-caret-down fa-fw"/>:<i class="fas fa-caret-up fa-fw"/>}({Math.abs(props.tickerData.DailyChangeRelative*100).toFixed(2)}%)
+                        {Math.abs(props.tickerData.DailyChange?.toFixed(2))}{(props.tickerData.DailyChange<0)?<i className="fa fa-caret-down fa-fw"/>:<i className="fas fa-caret-up fa-fw"/>}({Math.abs(props.tickerData.DailyChangeRelative*100).toFixed(2)}%)
                     </div>
                     <div className="dd3 ddr">
                         <span className="grey-text">LOW</span> {props.tickerData.Low && Math.abs(props.tickerData.Low.toFixed(2))}
@@ -140,7 +140,6 @@ export const Ticker = (props) => {
 
 Ticker.propTypes = {
     setTickerData: PropTypes.func.isRequired,
-    pairList: PropTypes.array.isRequired,
     selectedPair: PropTypes.string,
     tickerData: PropTypes.object
   };
