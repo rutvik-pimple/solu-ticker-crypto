@@ -24,6 +24,13 @@
   color: white;
 }
 
+.Symbol {
+  width: 40px;
+  height: 40px;
+  flex: 0 0 40px;
+  /* background-image: url(&quot;https://static.bitfinex.com/images/icons/BTC-alt.svg&quot;); */
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +43,91 @@
     transform: rotate(360deg);
   }
 }
+
+.list-search {
+  width: 12rem;
+  margin: 0 auto;
+}
+input {
+  font-family: FontAwesome;
+  font-size: 1em;
+  width: 100%;
+  background-color: #edeff0;
+  padding: 10px 15px;
+  border: 3px solid #d7dbdf;
+  align-content: center;
+  text-align: center;
+  /* border-right: none; */
+  border-radius: 0.35em 0.35em 0 0;
+  outline: none;
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(23,44,61);
+  color: rgb(254,254,254);
+  
+}
+tr {
+  width: 100%;
+  background-color: rgb(23,44,61);
+}
+td {
+  width:100%;
+  text-align: left;
+  padding-left: 20px;
+  color: rgb(254,254,254);
+  background-color: rgb(23,44,61);
+}
+
+.ticker-container {
+  display: flex;
+  width: 25rem;
+  background-color: rgb(23, 44, 61);
+  color: rgb(254, 254, 254);
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dc1 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.dc2 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.dc3 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.ddl {
+  text-align: left;
+}
+
+.ddr {
+  text-align: right;
+}
+
+.grey-text {
+  color: rgb(168,172,175);
+}
+
+.dd1 {
+  font-size: large;
+}
+.image-width {
+  width: 2.5rem;
+}
+
