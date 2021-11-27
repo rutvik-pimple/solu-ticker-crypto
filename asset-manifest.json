@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/solu-ticker-crypto/static/css/main.64957cf2.chunk.css",
+    "main.js": "/solu-ticker-crypto/static/js/main.164ce7b5.chunk.js",
+    "main.js.map": "/solu-ticker-crypto/static/js/main.164ce7b5.chunk.js.map",
+    "runtime-main.js": "/solu-ticker-crypto/static/js/runtime-main.afaafef3.js",
+    "runtime-main.js.map": "/solu-ticker-crypto/static/js/runtime-main.afaafef3.js.map",
+    "static/js/2.312e09bb.chunk.js": "/solu-ticker-crypto/static/js/2.312e09bb.chunk.js",
+    "static/js/2.312e09bb.chunk.js.map": "/solu-ticker-crypto/static/js/2.312e09bb.chunk.js.map",
+    "index.html": "/solu-ticker-crypto/index.html",
+    "static/css/main.64957cf2.chunk.css.map": "/solu-ticker-crypto/static/css/main.64957cf2.chunk.css.map",
+    "static/js/2.312e09bb.chunk.js.LICENSE.txt": "/solu-ticker-crypto/static/js/2.312e09bb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.afaafef3.js",
+    "static/js/2.312e09bb.chunk.js",
+    "static/css/main.64957cf2.chunk.css",
+    "static/js/main.164ce7b5.chunk.js"
+  ]
+}
