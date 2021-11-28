@@ -1,5 +1,3 @@
-# It seems this app is only able to run in macos failed on windows to solve dependencies.
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
